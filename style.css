@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@keyframes color-change {
+  0%   { color: rgb(25, 0, 255); }
+  50%  { color: rgb(255, 0, 0); }
+  100% { color: rgb(25, 0, 255); }
+}
+
+body {
+    font-family: 'Inter', sans-serif; /* Font family */
+    font-size: 11px; /* O tamanho da fonte principal <p> */
+    background-color: #ffffff; /* A cor do plano de fundo da página */
+    color: #285aff; /* A cor do texto */ 
+}
+
+h1 {
+    color: #000000; /* A cor do cabeçalho */
+    font-size: 24px; /* O tamanho da fonte do cabeçalho */
+    font-family: 'Inter', sans-serif; /* Fonte do cabeçalho */
+    animation: color-change 3s infinite;
+    
+}
+h2:hover { animation: color-change 3s infinite; }
